@@ -56091,3 +56091,12 @@ display: flex;
     font-size: 30px;
     color: #fff;
 }
+.maincardbox .form-group .form-control{
+    border-radius: 50px;
+    height: 45px;
+    border: 1px solid #D4D4D4;
+}
+.maincardbox .form-group .form-control:focus{
+    border: 1px solid #9b9999;
+
+}

@@ -11,61 +11,48 @@
     href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
-  <!-- Ionicons -->
-  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-  <!-- Tempusdominus Bootstrap 4 -->
-  <link rel="stylesheet" href="plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
-  <!-- iCheck -->
-  <link rel="stylesheet" href="plugins/icheck-bootstrap/icheck-bootstrap.min.css">
-  <!-- JQVMap -->
-  <link rel="stylesheet" href="plugins/jqvmap/jqvmap.min.css">
-  <!-- Theme style -->
   <link rel="stylesheet" href="dist/css/adminlte.min.css">
-  <!-- overlayScrollbars -->
-  <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
-  <!-- Daterange picker -->
-  <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
-  <!-- summernote -->
-  <link rel="stylesheet" href="plugins/summernote/summernote-bs4.min.css">
   <link rel="stylesheet" href="./assets/css/jquery-ui.css">
 </head>
 
-<body class="hold-transition sidebar-mini ">
+<body class="hold-transition sidebar-mini sidebar-mini layout-fixed layout-footer-fixed">
   <!-- Navbar -->
-  <nav class="main-header navbar navbar-expand navbar-white navbar-light " style="margin-left: 0px !important;">
-    <!-- Left navbar links -->
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
-      </li>
-      <li class="nav-item d-none d-sm-inline-block">
-        <a href="Javascript:void()" class="nav-link pt-0"><img src="./assets/images/iocl_logo.png" alt=""></a>
-      </li>
-      <li class="nav-item d-none d-sm-inline-block">
-        <a href="#" class="nav-link feustace">
-          <i class="fa fa-user mr-1 "></i>
-          Prince Fuel Station (202215)</a>
-      </li>
-    </ul>
-
-    <!-- Right navbar links -->
-    <ul class="navbar-nav ml-auto">
-      <!-- Navbar Search -->
-      <li class="nav-item">
-        <a class="nav-link notimaenu" data-widget="navbar-search" href="#" role="button">
-          <i class="fas fa-bell"></i>
-        </a>
-      </li>
-      <!-- <li class="nav-item">
-        <a class="nav-link bg-white notimaenu" data-widget="navbar-search" href="#" role="button">
-          <i class="fas fa-search"></i>
-        </a> -->
-      </li>
-
-    </ul>
-  </nav>
+ 
   <div class="wrapper">
-
+    <nav class="main-header navbar navbar-expand navbar-white navbar-light " style="margin-left: 0px !important;
+    position: fixed;
+    width: 100%;">
+      <!-- Left navbar links -->
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+        </li>
+        <li class="nav-item d-none d-sm-inline-block">
+          <a href="Javascript:void()" class="nav-link pt-0"><img src="./assets/images/iocl_logo.png" alt=""></a>
+        </li>
+        <li class="nav-item d-none d-sm-inline-block">
+          <a href="#" class="nav-link feustace">
+            <i class="fa fa-user mr-1 "></i>
+            Prince Fuel Station (202215)</a>
+        </li>
+      </ul>
+  
+      <!-- Right navbar links -->
+      <ul class="navbar-nav ml-auto">
+        <!-- Navbar Search -->
+        <li class="nav-item">
+          <a class="nav-link notimaenu" data-widget="navbar-search" href="#" role="button">
+            <i class="fas fa-bell"></i>
+          </a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link bg-white notimaenu" data-widget="navbar-search" href="#" role="button">
+            <i class="fas fa-search"></i>
+          </a> -->
+        </li>
+  
+      </ul>
+    </nav>
     <!-- Preloader -->
     <div class="preloader flex-column justify-content-center align-items-center">
       <img class="animation__shake" src="./assets/images/logo_1.png" alt="AdminLTELogo" height="50">
@@ -461,7 +448,7 @@
 
 
       <!-- Main content -->
-      <section class="content pt-2">
+      <section class="content pt-2 content-scroll">
         <div class="container-fluid">
           <!-- Small boxes (Stat box) -->
           <div class="form-row">
@@ -495,7 +482,7 @@
                       data-fgColor="#F3B002">
                   </div>
                 </div>
-                <div class="stock_overflowcard mb-0">
+                <div class="stock_overflowcard">
                   <div class="stock_con">
                     <div class="tankcontent">Tank No.: <span>01</span> </div>
                     <div class="tankcontent">Product : <span>Petrol</span> </div>
@@ -506,7 +493,17 @@
                       data-fgColor="#029CF3">
                   </div>
                 </div>
-
+                <div class="stock_overflowcard mb-0">
+                  <div class="stock_con">
+                    <div class="tankcontent">Tank No.: <span>01</span> </div>
+                    <div class="tankcontent">Product : <span>Petrol</span> </div>
+                    <div class="tankcontent">Avl. Vol (ltr): <span class="value_btn">2258.65</span> </div>
+                  </div>
+                  <div class="stock_progree">
+                    <input type="text" class="knob" value="30" data-thickness="0.2" data-width="90" data-height="90"
+                      data-fgColor="#FB0087">
+                  </div>
+                </div>
               </div>
             </div>
             <div class="col-lg-8 col-6">
@@ -607,7 +604,58 @@
                   </div>
                 </div>
               </div>
+              <div class="maincardbox my-2">
+                <div class="form-row">
+                  <div class="col-lg-4 col-md-6 col-12">
+                    <h5 class="heading_title">
+                      Sales Parameters                   
+                     </h5>
+                    <div class="form-group">
+                      <select name="" id="" class="form-control">
+                        <option value="">Select Product</option>
+                        <option value="">Select Product</option>
+                        <option value="">Select Product</option>
+                        <option value="">Select Product</option>
+
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <input type="text" id="startdate" class="form-control" placeholder="Start Date ">
+                    </div>
+                    <div class="form-group">
+                      <input type="text" id="enddate" class="form-control" placeholder="End Date ">
+                    </div>
+                  </div>
+                  <div class="col-lg-8 col-md-6 col-12">
+                   <table class="table table-bordered text-center">
+                   <thead>
+                    <tr>
+                      <td>Date</td>
+                      <td>Date</td>
+                      <td>Date</td>
+                      <td>Date</td>
+                    </tr>
+                   </thead>
+                   <tbody>
+                    <tr>
+                      <td>Date</td>
+                      <td>Date</td>
+                      <td>Date</td>
+                      <td>Date</td>
+                    </tr>
+                    <tr>
+                      <td>Date</td>
+                      <td>Date</td>
+                      <td>Date</td>
+                      <td>Date</td>
+                    </tr>
+                    </tbody>
+                   </table>
+                  </div>
+                </div>
+              </div>
             </div>
+
           </div>
         </div>
         <!-- /.row -->
@@ -616,30 +664,13 @@
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
-
-
-  <!-- Control Sidebar -->
-  <aside class="control-sidebar control-sidebar-dark">
-    <!-- Control sidebar content goes here -->
-  </aside>
-  <!-- /.control-sidebar -->
   </div>
   <!-- ./wrapper -->
 
   <!-- jQuery -->
   <script src="plugins/jquery/jquery.min.js"></script>
-  <!-- jQuery UI 1.11.4 -->
   <script src="plugins/jquery-ui/jquery-ui.min.js"></script>
-  <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
-  <script>
-    $.widget.bridge('uibutton', $.ui.button)
-  </script>
-  <!-- Bootstrap 4 -->
   <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <!-- ChartJS -->
-  <script src="plugins/chart.js/Chart.min.js"></script>
-  <!-- Sparkline -->
-  <script src="plugins/sparklines/sparkline.js"></script>
   <!-- JQVMap -->
   <script src="plugins/jqvmap/jquery.vmap.min.js"></script>
   <script src="plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
@@ -653,7 +684,6 @@
   <!-- Summernote -->
   <script src="plugins/summernote/summernote-bs4.min.js"></script>
   <!-- overlayScrollbars -->
-  <script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
   <!-- AdminLTE App -->
   <script src="dist/js/adminlte.js"></script>
   <!-- AdminLTE for demo purposes -->

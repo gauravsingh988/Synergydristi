@@ -11959,7 +11959,6 @@ html {
 
 .layout-navbar-fixed.layout-fixed .wrapper .sidebar {
     margin-top: calc(3.5rem + 1px)
-    
 }
 
 .layout-navbar-fixed.layout-fixed .wrapper .brand-link.text-sm~.sidebar {
@@ -13175,9 +13174,11 @@ body:not(.layout-fixed) .main-sidebar .sidebar {
     position: fixed;
     top: 57px;
 }
-.content-wrapper{
-    padding-top:60px
+
+.content-wrapper {
+    padding-top: 60px
 }
+
 .layout-fixed .control-sidebar {
     bottom: 0;
     float: none;
@@ -13189,7 +13190,7 @@ body:not(.layout-fixed) .main-sidebar .sidebar {
     height: calc(100vh - calc(3.5rem + 1px));
     overflow-y: auto;
     scrollbar-width: 30px;
-    scrollbar-color: red ;
+    scrollbar-color: red;
 }
 
 .layout-fixed .control-sidebar .control-sidebar-content::-webkit-scrollbar {
@@ -55865,6 +55866,9 @@ ul li ul {
     background: #f0f0f0;
     padding: 10px;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .dispbtn .devi_con {
@@ -55977,6 +55981,13 @@ ul li ul {
     background: #F30C02;
     color: #fff;
     border-radius: 10px;
+    border: 1px solid #F30C02;
+    transition: all 0.5s;
+}
+
+.singbtn:hover {
+    color: #F30C02;
+    background-color: transparent;
 }
 
 .for_text {
@@ -56012,6 +56023,9 @@ ul li ul {
     background: #f0f0f0;
     padding: 10px;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .dispcontent p {
@@ -56116,64 +56130,126 @@ ul li ul {
     color: #fff;
     height: 45px;
 }
-.btnsumit:hover{
+
+.btnsumit:hover {
     color: #fff;
 }
-.btndowload{
+
+.btndowload {
     background: #fff;
     color: #F30C02;
     border: 1px solid #F30C02;
     border-radius: 50px;
 }
+
 div.dataTables_wrapper div.dataTables_length select {
     width: auto;
     display: inline-block;
 }
+
 div.dataTables_wrapper div.dataTables_filter {
     text-align: right;
 }
+
 div.dataTables_wrapper div.dataTables_filter input {
     margin-left: 0.5em;
     display: inline-block;
     width: auto;
 }
+
 div.dataTables_wrapper div.dataTables_paginate ul.pagination {
     margin: 2px 0;
     white-space: nowrap;
     justify-content: flex-end;
 }
-.content-scroll{
+
+.content-scroll {
     height: calc(100vh - 55px);
     overflow-y: auto;
 }
+
 .content-scroll::-webkit-scrollbar {
     width: 8px;
-  }
-  .content-scroll {
+}
+
+.content-scroll {
     scrollbar-width: thin;
     scrollbar-color: #90A4AE #CFD8DC;
-  }
-  .content-scroll::-webkit-scrollbar-track {
-    background:  transparent;
-  }
-  .content-scroll::-webkit-scrollbar-thumb {
-    background-color: #A9A9AA ;
+}
+
+.content-scroll::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.content-scroll::-webkit-scrollbar-thumb {
+    background-color: #A9A9AA;
     border-radius: 6px;
-  }
-  .layout-footer-fixed .wrapper .content-wrapper{
-    padding-bottom:0px 
-  }
-  .table thead tr{
-    background-color:#303030;
-    color:#fff;
-  }
-  .table td, .table th{
-    padding:8px
-  }
-  .page-item.active .page-link{
-    background-color:#F30C02;
-    border:1px solid #F30C02;
-  }
-  .page-link,.page-link:hover{
-    color:#F30C02;
-  }
+}
+
+.layout-footer-fixed .wrapper .content-wrapper {
+    padding-bottom: 0px
+}
+
+.table thead tr {
+    background-color: #303030;
+    color: #fff;
+}
+
+.table td,
+.table th {
+    padding: 8px
+}
+
+.page-item.active .page-link {
+    background-color: #F30C02;
+    border: 1px solid #F30C02;
+}
+
+.page-link,
+.page-link:hover {
+    color: #F30C02;
+}
+
+.accrchecklist ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.accrchecklist ul li {
+    padding-right: 30px;
+    display: inline-block;
+    position: relative;
+}
+
+.accrchecklist ul li::before {
+    position: absolute;
+    content: "»";
+    font-size: 26px;
+    font-weight: 400;
+    top: -9px;
+    right: 6px;
+}
+.main_section_access .table tr td:nth-child(n+3){
+    text-align: center;
+}
+.accrchecklist ul li:last-child:before{
+    display: none;
+}
+.access_section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainsec_checkbox {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    margin-left: 0;
+}
+
+.mainsec_checkbox .vidata {
+    width: 15%;
+    text-align: right;
+    margin-bottom: 12px;
+}

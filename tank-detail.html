@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Synergy | Drishti</title>
+
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="dist/css/adminlte.min.css">
+    <link rel="stylesheet" href="./assets/css/jquery-ui.css">
+</head>
+
+<body class="hold-transition sidebar-mini sidebar-mini layout-fixed layout-footer-fixed">
+    <!-- Navbar -->
+
+    <div class="wrapper">
+        <nav class="main-header navbar navbar-expand navbar-white navbar-light " style="margin-left: 0px !important;
+    position: fixed;
+    width: 100%;">
+            <!-- Left navbar links -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+                </li>
+                <li class="nav-item d-none d-sm-inline-block">
+                    <a href="Javascript:void()" class="nav-link pt-0"><img src="./assets/images/iocl_logo.png"
+                            alt=""></a>
+                </li>
+                <li class="nav-item d-none d-sm-inline-block">
+                    <a href="#" class="nav-link feustace">
+                        <i class="fa fa-user mr-1 "></i>
+                        Prince Fuel Station (202215)</a>
+                </li>
+            </ul>
+
+            <!-- Right navbar links -->
+            <ul class="navbar-nav ml-auto">
+                <!-- Navbar Search -->
+                <li class="nav-item">
+                    <a class="nav-link notimaenu" data-widget="navbar-search" href="#" role="button">
+                        <i class="fas fa-bell"></i>
+                    </a>
+                </li>
+                <!-- <li class="nav-item">
+          <a class="nav-link bg-white notimaenu" data-widget="navbar-search" href="#" role="button">
+            <i class="fas fa-search"></i>
+          </a> -->
+                </li>
+
+            </ul>
+        </nav>
+        <!-- Preloader -->
+        <div class="preloader flex-column justify-content-center align-items-center">
+            <img class="animation__shake" src="./assets/images/logo_1.png" alt="AdminLTELogo" height="50">
+        </div>
+
+
+        <!-- /.navbar -->
+
+        <!-- Main Sidebar Container -->
+        <aside class="main-sidebar new_sidebar">
+            <!-- Brand Logo -->
+
+
+            <!-- Sidebar -->
+            <div class="sidebar">
+                <!-- Sidebar user panel (optional) -->
+                <!-- Sidebar Menu -->
+                <nav class="mt-2">
+                    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
+                        data-accordion="false">
+                        <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+
+                        <li class="nav-item">
+                            <a href="Javascript:void()" class="nav-link">
+                                <i class="nav-icon fas fa-th"></i>
+                                <p>
+                                    Home
+                                </p>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="Javascript:void()" class="nav-link">
+                                <i class="nav-icon far fa-plus-square"></i>
+                                <p>
+                                    Master
+                                    <i class="fas fa-angle-left right"></i>
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="Javascript:void()" class="nav-link">
+                                        <p>
+                                            Hardware
+                                            <i class="fas fa-angle-left right"></i>
+                                        </p>
+                                    </a>
+                                    <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a href="Javascript:void()" class="nav-link">
+                                                <p>Forecourt </p>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="Javascript:void()" class="nav-link">
+                                                <p>Automation </p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="Javascript:void()" class="nav-link">
+                                        <p>
+                                            Company
+                                            <i class="fas fa-angle-left right"></i>
+                                        </p>
+                                    </a>
+                                    <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a href="Javascript:void()" class="nav-link">
+                                                <p>Franchisee</p>
+                                                <i class="fas fa-angle-left right"></i>
+                                            </a>
+                                            <ul class="nav nav-treeview">
+                                                <li class="nav-item">
+                                                    <a href="Javascript:void()" class="nav-link">
+                                                        <p>Profile</p>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="Javascript:void()" class="nav-link">
+                                                        <p>Setup</p>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="Javascript:void()" class="nav-link">
+                                                        <p>Delivery Service Manager (DSM)</p>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a href="Javascript:void()" class="nav-link">
+                                                <p>User Accounts</p>
+                                                <i class="fas fa-angle-left right"></i>
+                                            </a>
+                                            <ul class="nav nav-treeview">
+                                                <li class="nav-item">
+                                                    <a href="Javascript:void()" class="nav-link">
+                                                        <p>Level 1 User</p>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="Javascript:void()" class="nav-link">
+                                                        <p>Level 2 User</p>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="Javascript:void()" class="nav-link">
+                                        <p>
+                                            Customers
+                                            <i class="fas fa-angle-left right"></i>
+                                        </p>
+                                    </a>
+                                    <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a href="Javascript:void()" class="nav-link">
+                                                <p>Assets</p>
+                                            </a>
+                                            <!-- <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                          <a href="pages/examples/login.html" class="nav-link">
+                            <p>Login v1</p>
+                            <i class="fas fa-angle-left right"></i>
+                          </a>
+                          <ul class="nav nav-treeview">
+                            <li class="nav-item">
+                              <a href="pages/examples/login.html" class="nav-link">
+                                <p>Login v1</p>
+                                <i class="fas fa-angle-left right"></i>
+                              </a>
+                            </li>
+                            <li class="nav-item">
+                              <a href="pages/examples/register.html" class="nav-link">
+                                <p>Register v1</p>
+                              </a>
+                            </li>
+                            <li class="nav-item">
+                              <a href="pages/examples/forgot-password.html" class="nav-link">
+                                <p>Forgot Password v1</p>
+                              </a>
+                            </li>
+                            <li class="nav-item">
+                              <a href="pages/examples/recover-password.html" class="nav-link">
+                                <p>Recover Password v1</p>
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul> -->
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="Javascript:void()" class="nav-link">
+                                <i class="nav-icon fas fa-copy"></i>
+                                <p>
+                                    Pricing
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="Javascript:void()" class="nav-link">
+                                <i class="nav-icon far fa-plus-square"></i>
+                                <p>
+                                    Reports
+                                    <i class="fas fa-angle-left right"></i>
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="Javascript:void()" class="nav-link">
+                                        <p>
+                                            Sales
+                                            <i class="fas fa-angle-left right"></i>
+                                        </p>
+                                    </a>
+                                    <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a href="Javascript:void()" class="nav-link">
+                                                <p>Nozzle wise report
+                                                </p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="Javascript:void()" class="nav-link">
+                                        <p>
+                                            Receipt
+                                            <i class="fas fa-angle-left right"></i>
+                                        </p>
+                                    </a>
+                                    <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a href="Javascript:void()" class="nav-link">
+                                                <p>Fuel receipt report</p>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="Javascript:void()" class="nav-link">
+                                                <p>Receipt Mismatch Report</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="Javascript:void()" class="nav-link">
+                                        <p>
+                                            Reconciliation
+                                            <i class="fas fa-angle-left right"></i>
+                                        </p>
+                                    </a>
+                                    <ul class="nav nav-treeview">
+                                        <li class="nav-item">
+                                            <a href="Javascript:void()" class="nav-link">
+                                                <p>Recon report 1</p>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="Javascript:void()" class="nav-link">
+                                                <p>Recon report 2</p>
+                                            </a>
+                                        </li>
+                                        <!-- <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                          <a href="pages/examples/login.html" class="nav-link">
+                            <p>Login v1</p>
+                            <i class="fas fa-angle-left right"></i>
+                          </a>
+                          <ul class="nav nav-treeview">
+                            <li class="nav-item">
+                              <a href="pages/examples/login.html" class="nav-link">
+                                <p>Login v1</p>
+                                <i class="fas fa-angle-left right"></i>
+                              </a>
+                            </li>
+                            <li class="nav-item">
+                              <a href="pages/examples/register.html" class="nav-link">
+                                <p>Register v1</p>
+                              </a>
+                            </li>
+                            <li class="nav-item">
+                              <a href="pages/examples/forgot-password.html" class="nav-link">
+                                <p>Forgot Password v1</p>
+                              </a>
+                            </li>
+                            <li class="nav-item">
+                              <a href="pages/examples/recover-password.html" class="nav-link">
+                                <p>Recover Password v1</p>
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul> -->
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Javascript:void()" class="nav-link">
+                            <i class="nav-icon fas fa-copy"></i>
+                            <p>
+                                Profile
+                            </p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Javascript:void()" class="nav-link">
+                            <i class="nav-icon fas fa-copy"></i>
+                            <p>
+                                Logs
+                            </p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Javascript:void()" class="nav-link">
+                            <i class="nav-icon fas fa-chart-pie"></i>
+                            <p>
+                                Accounts
+                                <i class="right fas fa-angle-left"></i>
+                            </p>
+                        </a>
+                        <ul class="nav nav-treeview">
+                            <li class="nav-item">
+                                <a href="Javascript:void()" class="nav-link">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Customer Wallet</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="Javascript:void()" class="nav-link">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Franchise Ledger</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Javascript:void()" class="nav-link">
+                            <i class="nav-icon fas fa-chart-pie"></i>
+                            <p>
+                                Offers
+                                <i class="right fas fa-angle-left"></i>
+                            </p>
+                        </a>
+                        <ul class="nav nav-treeview">
+                            <li class="nav-item">
+                                <a href="Javascript:void()" class="nav-link">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Loyalty Benefits</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="Javascript:void()" class="nav-link">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Referrals</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="Javascript:void()" class="nav-link">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Festive Offers</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Javascript:void()" class="nav-link">
+                            <i class="nav-icon fas fa-edit"></i>
+                            <p>
+                                Status
+                                <i class="fas fa-angle-left right"></i>
+                            </p>
+                        </a>
+                        <ul class="nav nav-treeview">
+                            <li class="nav-item">
+                                <a href="Javascript:void()" class="nav-link">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Map</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="Javascript:void()" class="nav-link">
+                                    <i class="far fa-circle nav-icon"></i>
+                                    <p>Franchise Live Status</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Javascript:void()" class="nav-link">
+                            <i class="nav-icon fas fa-table"></i>
+                            <p>
+                                Settings
+                            </p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Javascript:void()" class="nav-link">
+                            <i class="nav-icon fas fa-table"></i>
+                            <p>
+                                Log Out
+                            </p>
+                        </a>
+                    </li>
+                    </ul>
+                </nav>
+                <!-- /.sidebar-menu -->
+            </div>
+            <!-- /.sidebar -->
+        </aside>
+
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
+
+
+            <!-- Main content -->
+            <section class="content pt-2 content-scroll">
+                <div class="container-fluid">
+                    <!-- Small boxes (Stat box) -->
+                    <div class="form-row">
+                        <div class="col-12">
+                            <div class="maincardbox mb-2">
+                                <div class="align-items-center d-flex">
+                                    <h5 class="heading_title mb-0"> Tank Detail:</h5>
+                                    <div class="dispbtn ml-5">
+                                        <button class="btn devi_con mb-0">Tank No. 01</button>
+                                        <button class="btn devi_discon ml-2">Tank No. 02</button>
+                                        <button class="btn devi_discon ml-2">Tank No. 03</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-6">
+                            <div class="maincardbox">
+                                <div class="tank_main py-0 border-0">
+                                    <h5 class="heading_title mb-0">Tank Number</h5>
+                                    <h2>01</h2>
+                                    <div class="mai_tankimg">
+                                        <img src="./assets/images/tank_3.png" alt="">
+                                        <div class="tankimgtext">60%</div>
+                                    </div>
+                                    <h5 class="heading_title mt-3">Tank Details</h5>
+                                    <div class="tankdetails">
+                                        <div class="tanks">
+                                            Status : <span class="sta_box active d-inline">Connected</span>
+                                        </div>
+                                    </div>
+                                    <div class="stock_overflowcard text-left mt-3 mb-0">
+                                        <div class="stock_con">
+                                            <div class="tankcontent">Tank No.: <span>01</span> </div>
+                                            <div class="tankcontent">Product : <span>Petrol</span> </div>
+                                            <div class="tankcontent">Avl. Vol (ltr): <span
+                                                    class="value_btn">2258.65</span> </div>
+                                        </div>
+                                        <div class="stock_progree">
+                                            <input type="text" class="knob" value="30" data-thickness="0.2"
+                                                data-width="90" data-height="90" data-fgColor="#049CF1">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-6">
+                            <div class="maincardbox mb-2">
+                                <div class="form-row">
+                                    <div class="col-lg-4 col-md-6 col-12">
+                                        <div class="form-group">
+                                            <label for="">Dip(mm):</label>
+                                            <input type="text" class="form-control" placeholder="0.1">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-12">
+                                        <div class="form-group">
+                                            <label for="">Density Status:</label>
+                                            <input type="text" class="form-control" placeholder="Error">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-12">
+                                        <div class="form-group">
+                                            <label for="">Net Volume ( ltr. ):</label>
+                                            <input type="text" class="form-control" placeholder="200000">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-12">
+                                        <div class="form-group">
+                                            <label for="">Water Volume ( ltr. ) :</label>
+                                            <input type="text" class="form-control" placeholder="500">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-12">
+                                        <div class="form-group">
+                                            <label for="">Water Dip ( mm ) :</label>
+                                            <input type="text" class="form-control" placeholder="0.1">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-12">
+                                        <div class="form-group">
+                                            <label for="">Temp ( Celcius ):</label>
+                                            <input type="text" class="form-control" placeholder="2">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-12">
+                                        <div class="form-group">
+                                            <label for="">Density At 15 C ( Kg/M3 ) :</label>
+                                            <input type="text" class="form-control" placeholder="500">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-12">
+                                        <div class="form-group">
+                                            <label for="">Density ( Kg/M3 ) :</label>
+                                            <input type="text" class="form-control" placeholder="0">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-12">
+                                        <div class="form-group">
+                                            <label for="">Gross Volume ( ltr. ):</label>
+                                            <input type="text" class="form-control" placeholder="0">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-12">
+                                        <div class="form-group">
+                                            <label for="">Ullage ( ltr. ):</label>
+                                            <input type="text" class="form-control" placeholder="9000">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-12">
+                                        <div class="form-group">
+                                            <label for="">Total Sale ( ltr. ) :</label>
+                                            <input type="text" class="form-control" placeholder="1652">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-12">
+                                        <div class="form-group">
+                                            <label for="">MTD Sale ( ltr. ):</label>
+                                            <input type="text" class="form-control" placeholder="31.99">
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- /.row -->
+        </div><!-- /.container-fluid -->
+        </section>
+        <!-- /.content -->
+    </div>
+    <!-- /.content-wrapper -->
+    </div>
+    <!-- ./wrapper -->
+
+    <!-- jQuery -->
+    <script src="plugins/jquery/jquery.min.js"></script>
+    <script src="plugins/jquery-ui/jquery-ui.min.js"></script>
+    <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- JQVMap -->
+    <script src="plugins/jqvmap/jquery.vmap.min.js"></script>
+    <script src="plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
+    <!-- jQuery Knob Chart -->
+    <script src="plugins/jquery-knob/jquery.knob.min.js"></script>
+    <!-- daterangepicker -->
+    <script src="plugins/moment/moment.min.js"></script>
+    <script src="plugins/daterangepicker/daterangepicker.js"></script>
+    <!-- Tempusdominus Bootstrap 4 -->
+    <script src="plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+    <!-- Summernote -->
+    <script src="plugins/summernote/summernote-bs4.min.js"></script>
+    <!-- overlayScrollbars -->
+    <!-- AdminLTE App -->
+    <script src="dist/js/adminlte.js"></script>
+    <!-- AdminLTE for demo purposes -->
+    <script src="dist/js/demo.js"></script>
+    <script src="dist/js/pages/dashboard.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+    <script>
+        $(function () {
+            $("#startdate").datepicker();
+        });
+        $(function () {
+            $("#enddate").datepicker();
+        });
+
+
+        const ctx = document.getElementById('myChart');
+
+        new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+                borderColor: '#36A2EB',
+                backgroundColor: '#9BD0F5',
+                datasets: [{
+                    label: '# of Votes',
+                    data: [12, 19, 3, 5, 2, 3],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>

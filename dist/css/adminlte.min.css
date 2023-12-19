@@ -55927,7 +55927,7 @@ ul li ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid #EBEBEB;
+    border: 1px solid #EBEBEB;
     border-radius: 10px;
     padding: 13px;
     margin-bottom: 10px;
@@ -56061,19 +56061,19 @@ ul li ul {
     text-align: right;
 }
 
-.status_ac .sta_box {
+.sta_box {
     display: block;
     padding: 5px 10px;
     border-radius: 10px;
 }
 
-.status_ac .sta_box.active {
+.sta_box.active {
     color: #00A310;
     border: 1px solid #00A310;
     background: #ECF7E5;
 }
 
-.status_ac .sta_box.idle {
+.sta_box.idle {
     color: #F30C02;
     border: 1px solid #F30C02;
     background: #FFF3F2;
@@ -56230,12 +56230,15 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination {
     top: -9px;
     right: 6px;
 }
-.main_section_access .table tr td:nth-child(n+3){
+
+.main_section_access .table tr td:nth-child(n+3) {
     text-align: center;
 }
-.accrchecklist ul li:last-child:before{
+
+.accrchecklist ul li:last-child:before {
     display: none;
 }
+
 .access_section {
     display: flex;
     justify-content: space-between;
@@ -56252,4 +56255,32 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination {
     width: 15%;
     text-align: right;
     margin-bottom: 12px;
+}
+
+.tank_main {
+    text-align: center;
+}
+
+.tank_main {
+    border: 1px solid #EBEBEB;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.mai_tankimg img {
+    height: 100%;
+    width: 100%;
+}
+
+.mai_tankimg {
+    position: relative;
+}
+
+.mai_tankimg .tankimgtext {
+    font-size: 52px;
+    font-weight: 600;
+    color: #fff;
+    position: absolute;
+    top: 30px;
+    left: 39%;
 }

@@ -453,18 +453,24 @@
             <section class="content pt-2 content-scroll">
                 <div class="container-fluid">
                     <!-- Small boxes (Stat box) -->
-                    <div class="maincardbox mb-2">
+                    <div class="maincardbox mb-2 bg_graybox">
                         <div class="form-row">
                             <div class="col-12">
                                 <h5 class="heading_title">Tank List</h5>
                             </div>
                             <div class="col-lg-4 col-6">
-                                <div class="tank_main">
+                                <div class="tank_main dispencard">
                                     <h5 class="heading_title mb-0">Tank Number</h5>
                                     <h2>01</h2>
                                     <div class="mai_tankimg">
-                                        <img src="./assets/images/tank_1.png" alt="">
-                                        <div class="tankimgtext">60%</div>
+                                        <!-- <img src="./assets/images/tank_1.png" alt="">
+                                        <div class="tankimgtext">60%</div> -->
+                                        <div class="progress progress-bar-vertical progratankcap">
+                                            <div class="progress-bar progresspink" role="progressbar" aria-valuenow="60"
+                                                aria-valuemin="0" aria-valuemax="100" style="height: 60%;">
+                                                <span class="tankvalue">60%</span>
+                                            </div>
+                                        </div>
                                     </div>
                                     <h5 class="heading_title mt-3">Tank Details</h5>
                                     <div class="tankdetails">
@@ -473,26 +479,38 @@
                                         </div>
                                     </div>
                                     <div class="stock_overflowcard mt-3 mb-0">
-                                        <div class="stock_con">
+                                        <div class="stock_con text-left">
                                             <div class="tankcontent">Tank No.: <span>01</span> </div>
                                             <div class="tankcontent">Product : <span>Petrol</span> </div>
                                             <div class="tankcontent">Avl. Vol (ltr): <span
                                                     class="value_btn">2258.65</span> </div>
                                         </div>
                                         <div class="stock_progree">
-                                            <input type="text" class="knob" value="30" data-thickness="0.2"
-                                                data-width="90" data-height="90" data-fgColor="#F3B002">
+                                            <div class="set-size charts-container">
+                                                <div class="pie-wrapper progress-pink style-2">
+                                                    <span class="label">50<span class="smaller">%</span></span>
+                                                    <div class="pie">
+                                                        <div class="left-side half-circle"></div>
+                                                        <div class="right-side half-circle"></div>
+                                                    </div>
+                                                    <div class="shadow"></div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-6">
-                                <div class="tank_main">
+                                <div class="tank_main dispencard">
                                     <h5 class="heading_title mb-0">Tank Number</h5>
                                     <h2>01</h2>
                                     <div class="mai_tankimg">
-                                        <img src="./assets/images/tank_2.png" alt="">
-                                        <div class="tankimgtext">60%</div>
+                                        <div class="progress progress-bar-vertical progratankcap">
+                                            <div class="progress-bar progressblue" role="progressbar" aria-valuenow="60"
+                                                aria-valuemin="0" aria-valuemax="100" style="height: 60%;">
+                                                <span class="tankvalue">60%</span>
+                                            </div>
+                                        </div>
                                     </div>
                                     <h5 class="heading_title mt-3">Tank Details</h5>
                                     <div class="tankdetails">
@@ -501,26 +519,39 @@
                                         </div>
                                     </div>
                                     <div class="stock_overflowcard mt-3 mb-0">
-                                        <div class="stock_con">
+                                        <div class="stock_con text-left">
                                             <div class="tankcontent">Tank No.: <span>01</span> </div>
                                             <div class="tankcontent">Product : <span>Petrol</span> </div>
                                             <div class="tankcontent">Avl. Vol (ltr): <span
                                                     class="value_btn">2258.65</span> </div>
                                         </div>
                                         <div class="stock_progree">
-                                            <input type="text" class="knob" value="30" data-thickness="0.2"
-                                                data-width="90" data-height="90" data-fgColor="#FB0087">
+                                            <div class="set-size charts-container">
+                                                <div class="pie-wrapper progress-yellow style-2">
+                                                    <span class="label">50<span class="smaller">%</span></span>
+                                                    <div class="pie">
+                                                        <div class="left-side half-circle"></div>
+                                                        <div class="right-side half-circle"></div>
+                                                    </div>
+                                                    <div class="shadow"></div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-6">
-                                <div class="tank_main">
+                                <div class="tank_main dispencard">
                                     <h5 class="heading_title mb-0">Tank Number</h5>
                                     <h2>01</h2>
                                     <div class="mai_tankimg">
-                                        <img src="./assets/images/tank_3.png" alt="">
-                                        <div class="tankimgtext">60%</div>
+                                        <div class="progress progress-bar-vertical progratankcap">
+                                            <div class="progress-bar progressyelow" role="progressbar"
+                                                aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+                                                style="height: 60%;">
+                                                <span class="tankvalue">60%</span>
+                                            </div>
+                                        </div>
                                     </div>
                                     <h5 class="heading_title mt-3">Tank Details</h5>
                                     <div class="tankdetails">
@@ -529,15 +560,23 @@
                                         </div>
                                     </div>
                                     <div class="stock_overflowcard mt-3 mb-0">
-                                        <div class="stock_con">
+                                        <div class="stock_con text-left">
                                             <div class="tankcontent">Tank No.: <span>01</span> </div>
                                             <div class="tankcontent">Product : <span>Petrol</span> </div>
                                             <div class="tankcontent">Avl. Vol (ltr): <span
                                                     class="value_btn">2258.65</span> </div>
                                         </div>
                                         <div class="stock_progree">
-                                            <input type="text" class="knob" value="30" data-thickness="0.2"
-                                                data-width="90" data-height="90" data-fgColor="#049CF1">
+                                            <div class="set-size charts-container">
+                                                <div class="pie-wrapper progress-blue style-2">
+                                                    <span class="label">50<span class="smaller">%</span></span>
+                                                    <div class="pie">
+                                                        <div class="left-side half-circle"></div>
+                                                        <div class="right-side half-circle"></div>
+                                                    </div>
+                                                    <div class="shadow"></div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

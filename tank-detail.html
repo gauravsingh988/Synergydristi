@@ -453,7 +453,7 @@
             <section class="content pt-2 content-scroll">
                 <div class="container-fluid">
                     <!-- Small boxes (Stat box) -->
-                    <div class="form-row">
+                    <div class="form-row mb-2">
                         <div class="col-12">
                             <div class="maincardbox mb-2">
                                 <div class="align-items-center d-flex">
@@ -472,8 +472,11 @@
                                     <h5 class="heading_title mb-0">Tank Number</h5>
                                     <h2>01</h2>
                                     <div class="mai_tankimg">
-                                        <img src="./assets/images/tank_3.png" alt="">
-                                        <div class="tankimgtext">60%</div>
+                                        <div class="progress progress-bar-vertical progratankcap">
+                                            <div class="progress-bar progresspink" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="height: 60%;">
+                                              <span class="tankvalue">60%</span>
+                                            </div>
+                                          </div>
                                     </div>
                                     <h5 class="heading_title mt-3">Tank Details</h5>
                                     <div class="tankdetails">
@@ -489,8 +492,16 @@
                                                     class="value_btn">2258.65</span> </div>
                                         </div>
                                         <div class="stock_progree">
-                                            <input type="text" class="knob" value="30" data-thickness="0.2"
-                                                data-width="90" data-height="90" data-fgColor="#049CF1">
+                                            <div class="set-size charts-container">
+                                                <div class="pie-wrapper progress-pink style-2">
+                                                  <span class="label">50<span class="smaller">%</span></span>
+                                                  <div class="pie">
+                                                    <div class="left-side half-circle"></div>
+                                                    <div class="right-side half-circle"></div>
+                                                  </div>
+                                                  <div class="shadow"></div>
+                                                </div>
+                                              </div>
                                         </div>
                                     </div>
                                 </div>

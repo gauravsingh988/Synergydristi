@@ -29,6 +29,8 @@
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *,
 ::after,
 ::before {
@@ -57,11 +59,11 @@ section {
 
 body {
     margin: 0;
-    font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
     color: #212529;
+    font-family: 'Poppins', sans-serif;
     text-align: left;
     background-color: #fff
 }
@@ -181,13 +183,6 @@ a:not([href]):not([class]):hover {
     text-decoration: none
 }
 
-code,
-kbd,
-pre,
-samp {
-    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-    font-size: 1em
-}
 
 pre {
     margin-top: 0;
@@ -56186,6 +56181,9 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination {
     margin: 0;
 }
 
+.accrchecklist .form-group {
+    margin-bottom: 10px;
+}
 
 
 .main_section_access .table tr td:nth-child(n+3) {
@@ -56268,9 +56266,9 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination {
     align-items: center;
 }
 
-.main_section_access .per_header .pertext {
-    padding: 10px 0px;
-    padding-left: 69px;
+.pertext {
+    padding: 2px 0px;
+    padding-left: 14px;
 }
 
 .acces_modu_checkbox .accrchecklist .acceschecboxtwo {
@@ -56282,7 +56280,7 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination {
 }
 
 .access_section .viewdata {
-    width: 134px;
+    width: 151px;
     text-align: center;
 }
 
@@ -56493,4 +56491,15 @@ div.dataTables_wrapper div.dataTables_paginate ul.pagination {
 
 body {
     overflow: hidden !important;
+}
+
+table.table-bordered.dataTable th,
+table.table-bordered.dataTable td {
+    font-weight: 300;
+}
+
+.main_btn {
+    position: absolute;
+    right: 285px;
+    top: 72px;
 }
